@@ -1,0 +1,46 @@
+li{
+    list-style: none;
+    
+
+}
+
+.Header {
+    height: 120px;
+    
+    background-color:aquamarine;
+    
+
+}
+.Header-logo{
+    /* font-size: 36px; */
+    /* padding: 33px 20px; */
+    float: left;
+    font-size: 60px;
+    padding: 33px 20px;
+}
+
+.Header-list li{
+    color: black;
+    font-size: 25px;
+    float: left;
+    padding: 40px 30px;
+    /* padding: 20px 30px; */
+
+}
+
+/* .Bg {
+background-color: aquamarine;
+height: 300px;
+
+} */
+
+.Main {
+    background-color:antiquewhite;
+    height: 600px;
+
+}
+
+.Footer {
+    background-color: aquamarine;
+    height: 120px;
+}
