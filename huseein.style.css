@@ -1,0 +1,156 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "lucida granade"
+}
+
+
+li{
+    list-style: none;
+    color: yellow;
+    
+    
+
+}
+
+.Header {
+    height: 120px;
+    background-color: rgb(120, 29, 29);
+    
+
+}
+.Header-logo{
+    padding: 33px 20px;
+    float: left;
+    font-size: 20px;
+    padding: 50px 45px;
+    background-image: url(logo\ pdw.png);
+    background-size: cover ; 
+
+}
+
+.Header-list li{
+    color: black;
+    font-size: 37px;
+    float: right;
+    padding: 50px 30px;
+ 
+}
+
+/* .Bg {
+background-color: aquamarine;
+height: 300px;
+
+} */
+
+.Main {
+    background-color:antiquewhite;
+    height: 600px;
+    padding: 100px 80px;
+    
+
+}
+
+.copy-container h1{
+    font-size: 140px;
+}
+.copy-container h2{
+    font-size: 80px;
+}
+
+.copy-container span{
+    color: aqua;
+}
+.Footer {
+    background-color: rgb(120, 29, 29);
+    height: 100px;
+    margin-top: 10%;
+    width: 100%;
+
+}
+
+
+
+a{
+    text-decoration: none;
+
+}
+
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    color: yellow
+
+
+}
+
+.top-wrapper {
+    /* jpadding: 300px 0 200px 0; */
+    height:500px;
+    color: aliceblue;
+    text-align: center;
+    padding-top:10%;
+    
+    background-image: url(foto\ pandawa\ 2.jpg);
+    background-size: cover ; 
+    
+
+}
+
+.top-wrapper h1 {
+    opacity: 0,7;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0,7;
+    margin-bottom: 10px;
+
+}
+
+.btn {
+    padding: 12px 24px;
+    color: aliceblue;
+    display: inline-block;
+    opacity: 0,7;
+    border-radius: 4px;
+}
+
+.btn-hover {
+    opacity: 1;
+
+}
+
+.btn-signup {
+    background-color: red;
+    padding: 12px 24px;
+    color: aliceblue;
+    display: inline-block;
+    opacity: 0,7;
+    border-radius: 4px;
+
+}
+
+.facebook {
+    background-color: #4267B2
+    ;
+    margin-right: 10px;
+    
+}
+
+.twitter {
+    background-color :#1DA1F2
+
+}
+
