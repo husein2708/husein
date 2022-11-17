@@ -1,0 +1,524 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "lucida granade"
+}
+
+
+
+
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "lucida granade"
+}
+
+
+
+
+li {
+  list-style: none;
+  color: yellow;
+
+
+
+}
+
+
+.Header {
+  height: 100px;
+  background-color: #5ECE84;
+  margin-top: 0px;
+
+
+}
+
+
+.Header-logo {
+  padding: 33px 20px;
+  float: left;
+  size: 1px;
+  padding: 50px 45px;
+  background-image: url(logo\ pdw.png);
+  background-size: cover;
+
+
+}
+
+.Header-list a {
+  color: black;
+  font-size: 20px;
+  float: right;
+  padding: 30px 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /*font-weight: 100px;*/
+  margin-right: 80px;
+
+
+}
+
+
+
+.Header-list a:hover {
+  color: rgb(244, 34, 15);
+  font-weight: bold;
+  opacity: 1;
+  transition: 0.3s;
+  text-decoration: underline 3pt solid yellow;
+  margin-top: 10px;
+}
+
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  margin-left: 90px;
+  padding: 40px 0px;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 25px;
+  
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-color: #265DF2;
+  border-style: solid;
+  background-image: url(light\ blue.jpg);
+  border-radius: 25px 25px  25px;
+  margin-top: 10px;
+
+  
+}
+.overlay::before,
+.overlay::after{
+ background-color: red;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: red
+}
+
+
+.card-image .card-futsal{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  background-image: url(futsal.jpg);
+  background-size: 270px;
+  
+  
+}
+
+
+
+
+.card-image .card-saman{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  background-image: url(saman.jpg);
+  background-size: 270px;
+  
+  
+}
+
+.card-image .card-basket{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  background-image: url(basket.jpeg);
+  background-size: 230px;
+  background-position: center;
+ 
+  
+  
+}
+
+.card-image .card-silat{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  background-image: url(silat.jpg);
+  background-size: 230px;
+  background-position: center;
+ 
+  
+  
+}
+
+.card-image .card-paskibra{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  background-image: url(paskibra.jpeg);
+  background-size: 230px;
+  background-position: center;
+ 
+  
+  
+}
+
+.card-image .card-manggaco{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  background-image: url(anya.jpeg);
+  background-size: 170px;
+ 
+  
+  
+}
+
+.card-image .card-dance{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  background-image: url(dance.jpg);
+  background-size: 270px;
+  background-position: center;
+ 
+  
+  
+}
+
+.card-image .card-band{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  background-image: url(band.jpeg);
+  background-size: 270px;
+  background-position: center;
+ 
+  
+  
+}
+
+.card-image .card-pramuka{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  background-image: url(pramuka.jpeg);
+  background-size: 230px;
+  background-position: center;
+}
+
+
+
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #4070F4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #265DF2;
+}
+
+.bg-w {
+  border-style: solid;
+  border-color: darkblue;
+  background-image: url(light\ blue.jpg);
+  text-align: center;
+  border-radius: 25px 25px  25px;
+  padding: 30px;
+  
+ 
+ 
+  
+}
+.swiper-navBtn{
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+
+.bg{
+ background-color: white;
+ background-position: center;
+ min-zoom: 30px;
+ max-height: max-content;
+}
+
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: left;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+
+
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+ 
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+ 
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+ 
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+.bg-footer{
+  background-color: #5ECE84;
+}
+
+.Footer-logo {
+  padding: 33px 20px;
+  float: left;
+  size: 1px;
+  padding: 50px 45px;
+  background-image: url(logo\ pdw.png);
+  background-size: cover;
+  height: 40px;
+  width: 50px;
+  margin-top: 40px;
+}
+
