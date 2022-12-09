@@ -1,0 +1,112 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "lucida granade";
+}
+
+
+li {
+  list-style: none;
+  color: yellow;
+}
+
+.Header {
+  height: 100px;
+  background-color: #5ece84;
+  margin-top: 0px;
+}
+
+.Header-logo {
+  padding: 33px 20px;
+  float: left;
+  size: 1px;
+  padding: 50px 45px;
+  background-image: url(logo\ pdw.png);
+  background-size: cover;
+}
+
+.Header-list a {
+  color: black;
+  font-size: 20px;
+  float: right;
+  padding: 30px 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /*font-weight: 100px;*/
+  margin-right: 80px;
+}
+
+.Header-list a:hover {
+  color: rgb(244, 34, 15);
+  font-weight: bold;
+  opacity: 1;
+  transition: 0.3s;
+  text-decoration: underline 3pt solid yellow;
+  margin-top: 10px;
+}
+.bgpandawa{
+  background-color: rgb(1, 152, 117);
+  
+  
+}
+
+
+  .clearfix { 
+    text-align: center;
+   
+  
+}
+  .clearfix:after { 
+    content: "."; display: block; clear: both; visibility: hidden; line-height: 0;
+}
+
+.scriptlesssocialsharing{
+padding-top: 20px;
+}
+
+
+.Footer {
+  height: 100px;
+  background-color: #5ECE84;
+
+
+}
+
+
+.Footer-logo {
+  padding: 33px 20px;
+  float: left;
+  size: 60px;
+  padding: 50px 45px;
+  background-image: url(logo\ pdw.png);
+  background-size: cover;
+  height: 40px;
+  width: 50px;
+  margin-top: 40px;
+}
+
+.bg-footer{
+  background-color: #5ECE84;
+  height: 150px;
+}
+
+.content {
+  width: auto;
+  height: auto;
+  margin: 10px ;
+  text-align: left;
+  justify-content: center;
+  
+}
+
